@@ -1,0 +1,27 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+# Source: <source package name; defaults to package name>
+Section: development
+Priority: optional
+# Homepage: <enter URL here; no default>
+Standards-Version: 3.9.2
+
+Package: proton-build-env
+Version: 1.0.6
+Maintainer: Mikołaj "D1SoveR" Banasik <d1sover@gmail.com>
+# Pre-Depends: <comma-separated list of packages>
+Depends: meson, mingw-w64, g++-6-multilib, libpulse-dev, libpulse-dev:i386, libx11-dev, libx11-dev:i386, libfreetype6-dev, libfreetype6-dev:i386, libxcursor-dev, libxcursor-dev:i386, libxi-dev, libxi-dev:i386, libxshmfence-dev, libxshmfence-dev:i386, libxxf86vm-dev, libxxf86vm-dev:i386, libxrandr-dev, libxrandr-dev:i386, libxinerama-dev, libxinerama-dev:i386, libxcomposite-dev, libxcomposite-dev:i386, libglu1-mesa-dev, libglu1-mesa-dev:i386, libosmesa6-dev, libosmesa6-dev:i386, libdbus-1-dev, libdbus-1-dev:i386, libudev-dev, libudev-dev:i386, libsdl2-dev:i386, libfontconfig1-dev, libfontconfig1-dev:i386, libtiff5-dev, libtiff5-dev:i386, libmpg123-dev, libmpg123-dev:i386, libgphoto2-dev, libgphoto2-dev:i386, libvulkan-dev, libvulkan-dev:i386, libxml2-dev:i386, libxslt1-dev:i386, libgnutls28-dev:i386, libjpeg-turbo8-dev, libjpeg-turbo8-dev:i386, libegl1-mesa-dev, libegl1-mesa-dev:i386, libasound2-dev, libasound2-dev:i386, libsndio-dev, libsndio-dev:i386
+# Recommends: <comma-separated list of packages>
+# Suggests: <comma-separated list of packages>
+# Provides: <comma-separated list of packages>
+# Replaces: <comma-separated list of packages>
+Architecture: all
+# Multi-Arch: <one of: foreign|same|allowed>
+# Copyright: <copyright file; defaults to GPL2>
+# Changelog: <changelog file; defaults to a generic changelog>
+# Readme: <README.Debian file; defaults to a generic one>
+# Extra-Files: <comma-separated list of additional files for the doc directory>
+# Links: <pair of space-separated paths; First is path symlink points at, second is filename of link>
+# Files: <pair of space-separated paths; First is file to include, second is destination>
+#  <more pairs, if there's more than one file to include. Notice the starting space>
+Description: Metapackage with all the required packages to attempt building Steam's Proton on local machine

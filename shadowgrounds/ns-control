@@ -1,0 +1,27 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+# Source: <source package name; defaults to package name>
+Section: development
+Priority: optional
+# Homepage: <enter URL here; no default>
+Standards-Version: 3.9.2
+
+Package: shadowgrounds-build-env
+Version: 1.0.7
+Maintainer: Mikołaj "D1SoveR" Banasik <d1sover@gmail.com>
+# Pre-Depends: <comma-separated list of packages>
+Depends: cmake, libboost-dev, libboost-program-options-dev, libboost-system-dev, libboost-thread-dev, zlib1g-dev, libsdl1.2-dev, libsdl-image1.2-dev, libsdl-ttf2.0-dev, libsdl-sound1.2-dev, libopenal-dev, libgtk2.0-dev, libvorbis-dev, libavcodec-dev, libavformat-dev, libavdevice-dev, libglew-dev
+# Recommends: <comma-separated list of packages>
+# Suggests: <comma-separated list of packages>
+# Provides: <comma-separated list of packages>
+# Replaces: <comma-separated list of packages>
+Architecture: all
+# Multi-Arch: <one of: foreign|same|allowed>
+# Copyright: <copyright file; defaults to GPL2>
+# Changelog: <changelog file; defaults to a generic changelog>
+# Readme: <README.Debian file; defaults to a generic one>
+# Extra-Files: <comma-separated list of additional files for the doc directory>
+# Links: <pair of space-separated paths; First is path symlink points at, second is filename of link>
+# Files: <pair of space-separated paths; First is file to include, second is destination>
+#  <more pairs, if there's more than one file to include. Notice the starting space>
+Description: Metapackage with all the required packages to attempt building Shadowgrounds source code

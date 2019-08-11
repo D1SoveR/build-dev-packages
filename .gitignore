@@ -1,0 +1,2 @@
+# Does not include the resulting package in commits
+*.deb
